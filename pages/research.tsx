@@ -9,7 +9,6 @@ const research = () => {
             <ResponsiveNavbar />
             <Container maxW='2000px'>
                 {/* <Header /> */}
-                <ResponsiveNavbar />
                 <Container maxW={'8xl'} py={12} mb={1} pb={0}>
 
 

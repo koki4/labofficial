@@ -6,7 +6,6 @@ const members = () => {
         <div>
             <ResponsiveNavbar />
             <Container maxW='2000px'>
-                <ResponsiveNavbar />
                 <Container maxW={'8xl'} py={12} mb={1} pb={0}>
                     <Heading size={"lg"} marginTop="1">
                         <Text textDecoration="none" _hover={{ textDecoration: 'none' }} display="flex" alignItems="center">
