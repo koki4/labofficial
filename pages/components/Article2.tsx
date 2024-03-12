@@ -5,12 +5,14 @@ import {
     Text,
     useColorModeValue,
     Container,
+    SimpleGrid
 } from '@chakra-ui/react'
 
 const Article2 = () => {
     return (
-        <Container maxW={'8xl'} pl="0" mt="0" pb={10} pt={8}>
+        <Container maxW={'8xl'} py={12} mb={1} pb={0}>
             {/* <Heading>なぜこの時代に統計学が求められているのか</Heading> */}
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
             <Box
                 marginTop={{ base: '1', sm: '5' }}
                 display="flex"
@@ -73,6 +75,7 @@ const Article2 = () => {
                     {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
                 </Box>
             </Box>
+            </SimpleGrid>
         </Container>
     )
 }
