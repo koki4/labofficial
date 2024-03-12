@@ -34,7 +34,7 @@ function ResponsiveNavbar() {
                     bg="transparent" p="3" mr="3" rounded="full" // fontWeight="800"
                 >
 
-                    <Link href="/home" style={{ textDecoration: "none" }}> <Text fontSize="2xl" color="teal" as='abbr' >理論統計学 小森圭介 研究室</Text> </Link>
+                    <Link href="/home" style={{ textDecoration: "none" }}> <Text fontSize="2xl" color="teal" as='abbr' pl={0} ml={0}>理論統計学 小森圭介研究室</Text> </Link>
                     {/* <Text fontSize="2xl" color="teal" as='b' p={2}> Kei.Lab</Text> */}
                 </Flex>
                 {isDrawer ? (
@@ -44,7 +44,7 @@ function ResponsiveNavbar() {
                             onClick={onOpen}
                             aria-label={'Open Menu'}
                             size={'md'}
-                            mr={2}
+                            mr={1}
                         />
 
                         <Drawer isOpen={isOpen} placement="right" onClose={onClose}>

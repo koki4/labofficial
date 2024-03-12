@@ -12,7 +12,7 @@ const access = () => {
                         アクセス <BiDoorOpen color="black" />
                     </Text>
                 </Heading>
-                <Container m={5} pt={4} className="aaa" maxW="60%">
+                <Container m={5} pt={4} className="aaa" maxW="9 0%">
 
                     <Heading size={"md"} marginTop="1">
                         <Text textDecoration="none" _hover={{ textDecoration: 'none' }} display="flex" alignItems="center">
