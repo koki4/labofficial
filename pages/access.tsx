@@ -12,7 +12,7 @@ const access = () => {
                         アクセス <BiDoorOpen color="black" />
                     </Text>
                 </Heading>
-                <Container m={5} pt={4} className="aaa" maxW="9 0%">
+                <Container m={5} pt={4} className="aaa" maxW="90%">
 
                     <Heading size={"md"} marginTop="1">
                         <Text textDecoration="none" _hover={{ textDecoration: 'none' }} display="flex" alignItems="center">
@@ -35,7 +35,7 @@ const access = () => {
                         北1番・南1番出口から徒歩1分
                     </Text>
                     <Box
-                        width={{ base: '100%', sm: '85%' }}
+                        width={{ base: '100%', sm: '95%' }}
                         zIndex="2"
                         marginLeft={{ base: '0', sm: '5%' }}
                         marginTop="5%">

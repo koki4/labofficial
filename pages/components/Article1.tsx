@@ -37,10 +37,11 @@ export default function SplitWithImage() {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         <Stack spacing={4}>
           <Heading>ようこそ</Heading>
-          <Heading>東北大学 小森研究室へ</Heading>
+          <Heading>小森圭介研究室へ</Heading>
           <Text color={'gray.500'} fontSize={'lg'}>
-            本研究室では、<br/>
-            ベイズ統計学をはじめとした理論統計学、ニューラルネットや深層学習の理論的な構造について<br/>
+            東北大学情報科学研究科の本研究室では、<br/>
+            ベイズ統計学をはじめとした理論統計学、ニューラルネットや<br/>
+            深層学習の理論的な構造について<br/>
             幅広く研究しています。
           </Text>
           <Stack
